@@ -21,6 +21,7 @@ body {
     font-size: 17px;
     border-right: 1px #bbb solid;
     display: inline;
+    
 }
 
 .topnav a:last-of-type {
@@ -31,9 +32,7 @@ body {
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    
-    transition-delay: 1s;
-    transition-timing-function: linear;
+    transition: 0.7s;
 }
   
 /* Add a color to the active/current link */
