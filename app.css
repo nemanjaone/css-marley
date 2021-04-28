@@ -1,6 +1,6 @@
 html {
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -188,4 +188,12 @@ input {
 #subcontact:hover {
     background-color: white;
     transition-duration: 0.5s;
+}
+
+#footertext {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: large;
+    margin-left: 0;
 }
