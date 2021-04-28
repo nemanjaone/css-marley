@@ -83,6 +83,7 @@ section p {
     margin-left: 4em;
     margin-right: 5em;
     position: relative;
+    width: 70%;
 }
 
 section p:last-of-type {
@@ -94,6 +95,7 @@ section h2 {
     margin-right: 5em;
     margin-top: 0px;
     margin-bottom: 0.5em;
+    text-decoration: underline black;
 }
 
 section h2:first-of-type {
