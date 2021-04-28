@@ -1,6 +1,11 @@
+html {
+    height: 100vh;
+}
+
 body {
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
     background-color: #c9ada7;
     position: relative;
 }
@@ -66,8 +71,7 @@ header div h1 {
 .footer {
     background: rgb(74,78,105);
     background: linear-gradient(90deg, rgba(74,78,105,1) 0%, rgba(25,25,38,1) 100%);
-    
-    position: static;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -78,6 +82,11 @@ header div h1 {
 section p {
     margin-left: 4em;
     margin-right: 5em;
+    position: relative;
+}
+
+section p:last-of-type {
+    padding-bottom: 120px;
 }
 
 section h2 {
@@ -89,4 +98,38 @@ section h2 {
 
 section h2:first-of-type {
     margin-top: 1em;
+}
+
+#marley_about {
+    float: right;
+    width: 240px;
+    border: 2px solid #f2f2f2;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#skilltable {
+    margin-left: 4em;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+tr {
+    background-color: #dddddd;
+}
+
+tr:first-of-type {
+    background-color: inherit;
+}
+
+tr:nth-child(even) {
+    background-color: #f7ede2;
 }
