@@ -114,6 +114,7 @@ section h2:first-of-type {
 #skilltable {
     margin-left: 4em;
     border-collapse: collapse;
+    display: inline-block;
 }
 
 th, td {
@@ -132,4 +133,9 @@ tr:first-of-type {
 
 tr:nth-child(even) {
     background-color: #f7ede2;
+}
+
+#tennisball {
+    width: 200px;
+    display: inline-block;
 }
